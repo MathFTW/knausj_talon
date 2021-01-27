@@ -9,7 +9,7 @@ touch:
 	# close the mouse grid if open
 	user.grid_close()
 
-righty: 
+click: 
 	mouse_click(1)
 	# close the mouse grid if open
 	user.grid_close()
@@ -32,7 +32,7 @@ midclick:
 	key("{modifiers}:up")
 	# close the mouse grid
 	user.grid_close()
-<user.modifiers> righty: 
+<user.modifiers> click: 
 	key("{modifiers}:down")
 	mouse_click(1)
 	key("{modifiers}:up")
