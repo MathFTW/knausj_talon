@@ -19,7 +19,7 @@ settings():
 	#hide cursor when mouse_wake is called to enable zoom mouse
     user.mouse_wake_hides_cursor = 0
     #the amount to scroll up/down (equivalent to mouse wheel on Windows by default)
-    user.mouse_wheel_down_amount = 120
+    user.mouse_wheel_down_amount = 400
 
     # the number of lines of command history to display by default
     user.command_history_display = 10
@@ -29,7 +29,7 @@ settings():
 
 
     # (unstable) minimum silence time (in seconds) before speech is cut off, default 0.150
-    speech.timeout = 0.200
+    speech.timeout = 0.250
 	
 # uncomment tag to enable mouse grid
 # tag(): user.mouse_grid_enabled
